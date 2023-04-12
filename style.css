@@ -1,0 +1,150 @@
+/*variables*/
+:root {
+  --lightGray: #c5cae5;
+  --white: #fffeff;
+  --gray: #cdc5ff;
+  --blue: #322bea;
+  --purple: #6642fe;
+  --dark: #373e57;
+  --lightRed: #fff6f5;
+  --red: #cf6f6f;
+  --lightYellow: #fffbf2;
+  --yellow: #deb461;
+  --lightGreen: #f2fafa;
+  --green: #45ad91;
+  --lightBlue: #f3f3fd;
+  --darkPurple: #3d1a9e;
+}
+/*Generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--lightGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 32px;
+  box-shadow: 12px 12px 24px var(--grey);
+  background: white;
+  display: flex;
+  overflow: hidden;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, var(--purple), var(--blue));
+  padding: 32px;
+}
+
+.title {
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+
+.graphic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, var(--darkPurple), var(--blue));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.result {
+  font-size: 45px;
+  color: var(--white);
+}
+
+.total {
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p {
+  text-align: center;
+  color: var(--gray);
+  max-width: 350px;
+}
+
+.right_side {
+  padding: 32px;
+}
+
+h3 {
+  font-size: 32px;
+  color: var(--dark);
+  margin-bottom: 2rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.skill {
+  display: flex;
+  padding: 16px;
+  width: 300px;
+  justify-content: space-between;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.fraction {
+  color: #35363a;
+}
+
+.btn {
+  cursor: pointer;
+  background: var(--dark);
+  border-radius: 50px;
+  width: 100%;
+  border: none;
+  padding: 18px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 16px;
+}
